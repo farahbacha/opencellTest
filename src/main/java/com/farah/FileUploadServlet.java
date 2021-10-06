@@ -90,7 +90,7 @@ public class FileUploadServlet extends HttpServlet {
         }
         else 
         {
-        	System.out.println("khraa");
+        
         final Logger LOGGER = Logger.getLogger("ERR_CHAR_200  Balise XSD introuvable");
         
         Handler fileHandler = new FileHandler("C:\\rejet\\"+fileName+".log");
